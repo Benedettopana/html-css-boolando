@@ -11,7 +11,41 @@ img{
   /* width: 100%; */
 }
 
+.marca{
+  font-size: .8rem;
+  padding-bottom: 0;
+}
+
+.marca.prezzo{
+  color: red;
+}
+
+.marca.prezzo.originale{
+  color: black;
+  text-decoration: line-through;
+}
+
+.prezzo::after{
+  content: ' \20AC';
+}
+
+.nome{
+ text-transform: uppercase;
+}
+
+.prodotto .nascosta{
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+}
+
+.prodotto:hover .nascosta{
+  display: block;
+}
+
 body{
+  font-family: 'Roboto', sans-serif;
   /* width: 1600px; */
   background-color: white;
 }
@@ -25,16 +59,36 @@ body{
 
   width: 80%;
   max-width: 1300px;
-  margin: 40px auto;
+  margin: 130px auto;
 }
 
 .prodotto{
   width: 410px;
-  margin: 2px;
+  margin: 8px;
   position: relative;
   cursor: pointer;
 }
 
-.prodotto img{
+.prodotto .sconto{
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  background-color: red;
+  color: white;
+  font-size: .8rem;
+  padding: 5px 10px;
   
 }
+
+.sconto.sosteni{
+  background-color: green;
+  left: 50px;
+
+}
+
+.sconto.sosteni.singolo{
+  left: 0;
+}
+
+
+

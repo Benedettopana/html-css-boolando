@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fix img */
+
+img{
+  max-width: 100%;
+  /* width: 100%; */
+}
+
+body{
+  /* width: 1600px; */
+  background-color: white;
+}
+
+.container{
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
+
+  width: 80%;
+  max-width: 1300px;
+  margin: 40px auto;
+}
+
+.prodotto{
+  width: 410px;
+  margin: 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+.prodotto img{
+  
+}

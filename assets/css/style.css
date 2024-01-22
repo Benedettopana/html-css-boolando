@@ -45,11 +45,12 @@ img{
   right: 0;
 }
 
+/* hover */
 .prodotto:hover .nascosta{
   display: block;
 }
 
-.prodotto:hover .cuore{
+.prodotto .cuore:hover{
   color: red;
 }
 

@@ -8,14 +8,12 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  /* width: 1600px; */
   background-color: white;
 }
 
 
 img{
   max-width: 100%;
-  /* width: 100%; */
 }
 
 .marca{
@@ -37,7 +35,7 @@ img{
 }
 
 .nome{
- text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .prodotto .nascosta{
@@ -60,7 +58,6 @@ header{
 }
 
 .logo img{
-  /* width: 50px; */
   max-width: 30%;
 }
 .topbar{
@@ -90,9 +87,6 @@ header{
   margin: 0 17%;
 }
 
-/* .topbar .menu{
-  width: 15%;
-} */
 
 .menu ul{
   display: flex;
@@ -119,14 +113,11 @@ footer .info .menu a{
 }
 
 footer .social{
-  
+
 }
-/* .main{
-  margin-top: 30px;
-} */
+
 
 .container{
-  /* background-color: orange; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

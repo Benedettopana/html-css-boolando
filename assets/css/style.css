@@ -74,11 +74,20 @@ header{
 
 }
 
+.bottom-bar{
+  width: 100%;
+  background-color: #1A1A1A;
+  color: white;
+  height: 90px;
+
+}
+
 .box{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
+  margin: 0 17%;
 }
 
 /* .topbar .menu{
@@ -88,24 +97,29 @@ header{
 .menu ul{
   display: flex;
   list-style: none;
-}
-
-.topbar .menu ul{
   justify-content: space-between;
 }
 
-.topbar .menu ul a{
+.menu ul a{
   color: white;
   text-decoration: none;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.topbar .menu ul a:hover{
+.menu ul a:hover{
   text-decoration: underline;
 }
 
-.menu.social{
+footer .box{
+  margin: 0 17%;
+}
 
+footer .info .menu a{
+  font-size: .8rem;
+}
+
+footer .social{
+  
 }
 /* .main{
   margin-top: 30px;

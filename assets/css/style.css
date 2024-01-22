@@ -49,6 +49,10 @@ img{
   display: block;
 }
 
+.prodotto:hover .cuore{
+  color: red;
+}
+
 header{
   margin: 0 auto;
 }
